@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Cursive', 'Lucida Handwriting', cursive, sans-serif;
+  background: linear-gradient(to right, #67f5ff, #05dbf2);
+  color: #f2af5c;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+blockquote {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#content-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  max-width: 45%;
+  margin: 10px;
+}
+
+#text-container {
+  border: 2px solid #333;
+  padding: 20px;
+}
+
+#additional-content {
+  background-color: #eee;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
