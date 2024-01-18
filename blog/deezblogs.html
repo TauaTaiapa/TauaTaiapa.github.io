@@ -3,56 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Blog Name</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link href="deezblogs.css" rel="stylesheet" type="text/css" />
+    <link href="styles/html.css" rel="stylesheet" type="text/css" />
+    <title>Deez Blogs</title>
   </head>
-
   <body>
     <header>
-      <h1>Welcome to DeezBlogs</h1>
-      <nav>
-        <ul>
-          <li><a href="https://github.com/TauaTaiapa/DeezBlogs">Home</a></li>
-          <li><a href="html.html">Blog</a></li>
-        </ul>
-      </nav>
+      <h1>Welcome to my Blog</h1>
+      <h2>Sprint 2 work</h2>
     </header>
 
     <main>
-      <section class="coming-soon">
-        <h2>Coming Soon</h2>
+      <blockquote>
+        <p>
+          As you let your own light shine, you unconsciously give other people
+          permission to do the same.
+        </p>
+        <footer>— Marianne Williamson</footer>
+      </blockquote>
 
-        <article>
-          <h3>Stay Tuned for Exciting Content!</h3>
-          <p class="coming-soon-text">
-            Our team is working hard to bring you engaging and informative
-            posts. Check back soon for updates!
+      <div id="content-container">
+        <div class="column" id="text-container">
+          <p>
+            Classes: Think of classes like the categories or groups you create
+            for your web page. They're like tags you can give to elements with
+            similar styles or behaviours. You can give them the same class if
+            you have many aspects that should look or behave alike. It's like
+            organizing things into groups, making your styles easier to handle.
+            Classes are like a fashion statement for your elements. You define
+            the styles once, and every element in that class gets to wear the
+            same stylish outfit. So, it's like having a wardrobe for your
+            webpage; elements with the same class can pick and choose from the
+            same collection. For example, if you want all your buttons to have a
+            similar vibe, you can create a class for them. It's like having a
+            dress code for your buttons, ensuring they all look sharp and
+            stylish. And the cool part? You can apply the same class to multiple
+            elements. It's like spreading the style love around your page,
+            ensuring everything looks consistent and fabulous.
           </p>
-        </article>
-      </section>
+        </div>
 
-      <section class="about-me">
-        <h2>About Me</h2>
-        <p class="about-me-text">
-          Hey there! 👋 I'm on a coding adventure at the age of 44, ready to
-          unleash my inner developer. The pixels of game development have called
-          my name, and I'm excited to embark on this journey.
-        </p>
-        <p class="about-me-text">
-          When I'm not deciphering code, you'll find me exploring creativity and
-          innovation.
-        </p>
-        <p class="about-me-text">
-          Fun Fact: Why do programmers prefer dark mode? Because the light
-          attracts bugs! 😄 Stay tuned for coding adventures and, who knows,
-          maybe a few more tech-themed jokes along the way! 🚀✨
-        </p>
-      </section>
+        <div class="column" id="additional-content">
+          <p>
+            IDs: IDs are like the VIP passes on your webpage. Each element with
+            an ID is unique and gets its own special treatment. Think of IDs as
+            the individual names you give to those standout elements on your
+            page. So, if you want to make a particular element stand out from
+            the crowd and have its own distinct style, you give it an ID. It's
+            like saying, "Hey, you're special, and you deserve some unique
+            attention." IDs also come in handy when you're throwing a little
+            JavaScript party. If you want to interact with a specific element
+            using JavaScript, give it an ID. It's like having a direct line to
+            that particular element. And guess what? IDs are like the navigation
+            anchors of your webpage. You can create links that take you directly
+            to a specific section by using the ID. It's like having a treasure
+            map where each ID marks a unique spot. Best Practices: Now, when
+            you're organizing your webpage: For elements that are buddies and
+            want to share styles, use classes. It's like giving them a
+            standard-style vibe and keeping things neat and tidy. But for those
+            one-of-a-kind elements that need special attention, use IDs. It's
+            like giving them a unique name, making them feel extra special.
+            Remember, classes are for the cool and collective, while IDs are for
+            the unique and outstanding. It's like building a friendly community
+            on your webpage and letting the special stars shine with their own
+            names. 🌟✨
+          </p>
+        </div>
+      </div>
     </main>
 
     <footer>
-      <p>&copy; 2024 DeezBlogs. All rights reserved.</p>
+      <p>Copyright © 2024 Deez Blogs. All rights reserved.</p>
+      <a href="blog/deezblogs.html" target="_blank">Visit DeezBlogs</a>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
