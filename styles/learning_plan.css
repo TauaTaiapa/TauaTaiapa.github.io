@@ -1,0 +1,13 @@
+body {
+  background-color: #05dbf2;
+  font-family: 'Cursive', 'Lucida Handwriting', cursive, sans-serif;
+}
+h1 {
+  text-align: center;
+  padding: auto;
+}
+p {
+  margin-top: auto;
+  padding: auto;
+  text-align: center;
+}
