@@ -1,60 +1,36 @@
 body {
+  background: linear-gradient(to right, white, #05dbf2);
+  font-family: 'Anybody', sans-serif;
   margin: 0;
   padding: 20px;
-  font-family: 'Anybody', sans-serif;
-  background: linear-gradient(to right, #67f5ff, #05dbf2);
-  color: black;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
-header {
+h1 {
   text-align: center;
-  padding: 20px;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+h2 {
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #ddd;
+  border: 1px solid #333;
 }
 
-blockquote {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px; /* Added padding for spacing */
-}
-
-#content-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.column {
-  flex: 1;
-  max-width: 45%;
-  margin: 10px;
-}
-
-#text-container {
-  border: 2px solid #333;
-  padding: 20px;
-  margin: 10px 0; /* Adjusted margin for better spacing */
-}
-
-#additional-content {
-  background-color: #eee;
-  padding: 20px;
-  margin: 10px 0; /* Adjusted margin for better spacing */
+p {
+  margin: 10px 0;
+  font-family: 'Anybody', sans-serif;
+  color: black;
 }
 
 footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 10px;
   text-align: center;
-  padding: 20px;
-  margin-top: 20px;
-  background-color: #333; /* Set a background color for better visibility */
-  color: #fff; /* Set text color for better visibility */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

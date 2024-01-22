@@ -2,7 +2,7 @@ body {
   background: linear-gradient(to right, white, #05dbf2);
   font-family: 'Anybody', sans-serif;
   margin: 0;
-  padding: 10px;
+  padding: 20px;
 }
 
 h1 {
@@ -10,8 +10,18 @@ h1 {
   margin: 20px 0;
 }
 
+h2 {
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #ddd;
+  border: 1px solid #333;
+}
+
 p {
   margin: 10px 0;
+  font-family: 'Anybody', sans-serif;
   color: black;
 }
 

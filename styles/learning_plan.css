@@ -1,17 +1,26 @@
 body {
   background: linear-gradient(to right, white, #05dbf2);
   font-family: 'Anybody', sans-serif;
-  margin: 0; /* Remove default margin */
-  padding: 20px; /* Add some padding to the body for spacing */
+  margin: 0;
+  padding: 20px;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 20px; /* Add margin to the bottom of h1 for spacing */
+  margin: 20px 0;
+}
+
+h2 {
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #ddd;
+  border: 1px solid #333;
 }
 
 p {
-  margin: 10px 0; /* Add margin to the top and bottom of paragraphs for spacing */
+  margin: 10px 0;
   font-family: 'Anybody', sans-serif;
   color: black;
 }
