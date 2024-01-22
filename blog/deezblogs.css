@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 20px;
-  font-family: 'Cursive', 'Lucida Handwriting', cursive, sans-serif;
+  font-family: 'Anybody', sans-serif;
   background: linear-gradient(to right, #67f5ff, #05dbf2);
   color: #f2af5c;
   background-size: cover;
@@ -24,6 +24,7 @@ main {
 blockquote {
   max-width: 600px;
   margin: 0 auto;
+  padding: 20px; /* Added padding for spacing */
 }
 
 #content-container {
@@ -41,15 +42,19 @@ blockquote {
 #text-container {
   border: 2px solid #333;
   padding: 20px;
+  margin: 10px 0; /* Adjusted margin for better spacing */
 }
 
 #additional-content {
   background-color: #eee;
   padding: 20px;
+  margin: 10px 0; /* Adjusted margin for better spacing */
 }
 
 footer {
   text-align: center;
   padding: 20px;
   margin-top: 20px;
+  background-color: #333; /* Set a background color for better visibility */
+  color: #fff; /* Set text color for better visibility */
 }
