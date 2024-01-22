@@ -7,12 +7,12 @@ li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: linear-gradient(to right, white, #05dbf2);
 }
 
 body {
   font-family: 'Anybody', sans-serif;
   line-height: 1.6;
-  background: linear-gradient(to right, white, #05dbf2);
   color: #333;
   margin: 0;
   padding: 0;
