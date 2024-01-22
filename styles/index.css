@@ -19,6 +19,23 @@ h2 {
   border: 1px solid #333;
 }
 
+.nav-link {
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #ddd;
+  border: 1px solid #333;
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 p {
   margin: 10px 0;
   font-family: 'Anybody', sans-serif;
