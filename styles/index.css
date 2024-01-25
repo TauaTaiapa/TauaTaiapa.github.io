@@ -20,20 +20,28 @@ h2 {
 }
 
 .nav-link {
-  margin: 20px 0;
+  margin: 0 10px; /* Adjust margin for spacing between links */
   padding: 10px;
   text-align: center;
   font-size: 1.5em;
   background-color: #ddd;
   border: 1px solid #333;
-  width: 45%;
+  width: auto; /* Allow the width to adjust based on content */
   box-sizing: border-box;
 }
 
 .nav-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  text-align: center;
+}
+
+.nav-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container li {
+  display: inline-block;
 }
 
 p {
