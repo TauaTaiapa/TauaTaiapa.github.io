@@ -16,7 +16,7 @@ h2 {
   text-align: center;
   font-size: 1.5em;
   background-color: #ddd;
-  border: 1px solid #333;
+  border: 5px solid #333;
   border-radius: 25px;
 }
 
@@ -26,7 +26,7 @@ h2 {
   text-align: center;
   font-size: 1.5em;
   background-color: #ddd;
-  border: 1px solid #333;
+  border: 5px solid #333;
   width: auto;
   box-sizing: border-box;
   border-radius: 25px;
