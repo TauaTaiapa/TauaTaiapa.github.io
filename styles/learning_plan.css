@@ -16,13 +16,21 @@ h2 {
   text-align: center;
   font-size: 1.5em;
   background-color: #ddd;
-  border: 1px solid #333;
+  border: 5px solid #333;
+  border-radius: 25px;
 }
 
 p {
-  margin: 10px 0;
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
   font-family: 'Anybody', sans-serif;
   color: black;
+}
+
+image.container {
+  overflow-clip-margin: content-box;
 }
 
 footer {
