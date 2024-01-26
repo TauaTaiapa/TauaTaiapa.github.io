@@ -5,9 +5,16 @@ body {
   padding: 20px;
 }
 
+h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 3em;
+}
+
 h2 {
   text-align: center;
   margin: 20px 0;
+  font-size: 2em;
 }
 
 .highlight {
@@ -26,7 +33,7 @@ h2 {
 
 p {
   margin: 20px 0;
-  padding: 10px;
+  padding-top: none;
   text-align: left;
   font-size: 1.5em;
   font-family: 'Anybody', sans-serif;
@@ -41,4 +48,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+section {
+  padding: auto;
 }
