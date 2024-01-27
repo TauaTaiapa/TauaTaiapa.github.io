@@ -2,11 +2,13 @@ body {
   font-family: 'Anybody', sans-serif;
   margin: auto;
   padding: 0px;
+  font-size: x-large;
 }
 
 h1 {
   text-align: center;
   margin: 20px 0;
+  font-size: 100px;
 }
 
 .nav-container ul {
@@ -45,6 +47,7 @@ h2 {
 .image-container {
   position: relative;
   overflow: hidden;
+  margin: auto;
 }
 
 .overlay-text {
@@ -82,8 +85,48 @@ img {
     width: 80%;
   }
   footer {
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  #slideMenu {
+    display: none;
+  }
+
+  #slideMenuButton {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #slideMenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #2c3e50;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  #slideMenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #slideMenu li {
+    margin-bottom: 10px;
+  }
+
+  #slideMenu a {
+    text-decoration: none;
+    color: #fff;
   }
 }
