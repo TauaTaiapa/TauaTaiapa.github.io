@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
   slideMenuButton.addEventListener('mouseleave', function () {
     menuTimer = setTimeout(function () {
       slideMenu.style.display = 'none'
-    }, 9000)
+    }, 3000)
   })
 
   slideMenu.addEventListener('mouseenter', function () {
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
   slideMenu.addEventListener('mouseleave', function () {
     menuTimer = setTimeout(function () {
       slideMenu.style.display = 'none'
-    }, 9000)
+    }, 3000)
   })
 })
 
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       setTimeout(() => {
         window.location.href = link.href
-      }, 1000)
+      }, 3000)
     })
   })
 })

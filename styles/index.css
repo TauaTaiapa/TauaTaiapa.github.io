@@ -38,6 +38,12 @@ h2 {
   border-radius: 25px;
 }
 
+p {
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
 .about-me-text {
   margin: 10px 0;
   font-family: 'Anybody', sans-serif;
@@ -90,7 +96,7 @@ img {
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: auto;
   }
   #slideMenu {
     display: none;
