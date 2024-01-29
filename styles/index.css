@@ -2,13 +2,13 @@ body {
   font-family: 'Anybody', sans-serif;
   margin: auto;
   padding: 0px;
-  font-size: x-large;
+  font-size: large;
 }
 
 h1 {
   text-align: center;
   margin: 20px 0;
-  font-size: 100px;
+  font-size: 80px;
 }
 
 .nav-container ul {
