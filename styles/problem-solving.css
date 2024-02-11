@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(to right, white, #05dbf2);
+  font-family: 'Anybody', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 3em;
+}
+
+h2 {
+  margin: 10px;
+  padding: 5px;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+h3 {
+  margin: 10px 0;
+  padding: 5px;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+p {
+  margin: auto;
+  padding: auto;
+  text-align: left;
+}
