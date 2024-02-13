@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, white, #05dbf2);
+  font-family: 'Anybody', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main {
+  border-collapse: collapse;
+  width: 25em;
+  border-radius: 25px;
+  margin: 20px auto;
+  border: 2px solid black;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.cell1,
+.cell2 {
+  border: 2px solid black;
+}
