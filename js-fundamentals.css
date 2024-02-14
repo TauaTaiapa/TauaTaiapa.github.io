@@ -1,19 +1,25 @@
 body {
   background: linear-gradient(to right, white, #05dbf2);
+  background-size: cover;
   font-family: 'Anybody', sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 10px;
+  transition: padding 0.5s;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
   margin: 20px 0;
 }
 
 h2 {
   margin: 20px 0;
   padding: 10px;
-  text-align: center;
   font-size: 1.5em;
   background-color: #ddd;
   border: 5px solid #333;
@@ -23,22 +29,29 @@ h2 {
 p {
   margin: 20px 0;
   padding: 10px;
-  text-align: center;
   font-size: 1.5em;
-  font-family: 'Anybody', sans-serif;
   color: black;
 }
 
-image.container {
-  overflow-clip-margin: content-box;
-}
-
-footer {
+.footer {
   background-color: #2c3e50;
   color: #ecf0f1;
   padding: 10px;
   text-align: center;
+  width: 100%;
   position: fixed;
   bottom: 0;
-  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  h2,
+  p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  body {
+    padding: 5px;
+  }
 }
