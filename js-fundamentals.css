@@ -1,10 +1,8 @@
 body {
   background: linear-gradient(to right, white, #05dbf2);
-  background-size: cover;
   font-family: 'Anybody', sans-serif;
   margin: 0;
-  padding: 10px;
-  transition: padding 0.5s;
+  padding: 0;
 }
 
 h1,
@@ -39,11 +37,11 @@ p {
   padding: 10px;
   text-align: center;
   width: 100%;
-  position: fixed;
+  position: relative;
   bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 715px) {
   h2,
   p {
     font-size: 1em;
@@ -54,4 +52,9 @@ p {
   body {
     padding: 5px;
   }
+}
+
+code {
+  display: block;
+  white-space: pre-wrap;
 }
