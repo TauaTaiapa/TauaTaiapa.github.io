@@ -36,10 +36,6 @@ p {
   color: black;
 }
 
-image.container {
-  overflow-clip-margin: content-box;
-}
-
 footer {
   color: #ecf0f1;
   padding: 10px;
@@ -49,16 +45,29 @@ footer {
   width: 100%;
 }
 
-img {
-  width: 600px;
-  height: 400px;
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
 }
 
-.imagetwo {
-  float: left;
-  margin: 0, 15px, 0, 0;
-}
-.imagethree {
-  float: right;
-  margin: 0, 0, 0, 15px;
+@media screen and (max-width: 600px) {
+  .imageone,
+  .imagetwo,
+  .imagethree {
+    width: 100%;
+    height: auto;
+  }
 }
